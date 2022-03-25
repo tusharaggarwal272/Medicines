@@ -6,6 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div {
+  margin-top: 1rem;
+  width: 100%;
+}
+table {
+  border-top: 2px solid black;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
